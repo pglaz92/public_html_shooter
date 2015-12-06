@@ -1,0 +1,165 @@
+@font-face
+{
+      font-family: codename;
+      src:url(font/font1.ttf);
+}
+@font-face
+{
+      font-family: WC;
+      src:url(font/font2.otf);
+}
+
+#temp {
+
+	ackground: linear-gradient(to bottom, #071421, #0000);
+}
+
+body {
+
+	background: linear-gradient(to bottom, #071421, #555555);
+	font-family:Arial;
+
+	color: #f3f3f3;
+	margin: auto;
+
+}
+
+#image {
+
+	float: left;
+	margin-left: 15px;
+
+	border-collapse:collapse; 
+	border-width: 5px; 
+	border-color:black; 
+	border-style:solid;
+
+}
+
+#two_picture {
+
+	height: 260;
+
+}
+
+#movie {
+
+	margin: 20px;
+	text-align: center;
+
+}
+
+iframe {
+
+	border-collapse:collapse; 
+	border-width: 5px; 
+	border-color:black; 
+	border-style:solid;
+
+}
+
+#header {
+
+	border-collapse:collapse; 
+	border-width: 8px; 
+	border-color:black; 
+	border-style:solid;
+	width: 930;
+	margin: auto;
+	margin-top: 25px;
+
+}
+#menu_bar {
+
+	width: 946;
+	height: 45;
+	margin: auto;
+	background-color:black;
+
+}
+#menu_el {
+	font-size: 34; 
+	color:black; 
+	font-family:codename; 
+	background-color:grey;
+	margin-left:1%;
+	padding-left:0.5%; 
+	float: left;
+	width: 20.2%;
+}
+#menu_el2 {
+	font-size: 34; 
+	color:black; 
+	font-family:codename; 
+	background-color:grey;
+	margin-left:1%;
+	padding-left:0.5%; 
+
+	float: left;
+	width: 17%;
+}
+
+#menu_el:hover {
+
+	background-color:#6666ff;
+
+}
+#menu_el2:hover {
+
+	background-color:#6666ff;
+
+}
+
+#main {
+
+	border-collapse:collapse; 
+	border-width: 8px; 
+	border-color:black; 
+	border-style:solid;
+
+	width: 910;
+	margin: auto;
+
+	font-size: 18; 
+	background-color:#323232;
+	padding: 10;
+
+	min-height: 400px;
+}
+
+#footer {
+
+	border-collapse:collapse; 
+	border-width: 8px; 
+	border-color:black; 
+	border-style:solid;
+	width: 930;
+	margin: auto;
+	border-top-width: 0px;
+
+	font-size: 17; 
+	color:grey; 
+	background-color:#2F4F4F;
+	text-align: center;
+	margin-bottom: 35px;
+
+}
+
+#bottom_menu {
+
+
+	text-align: right;
+	margin-right: 10px;
+
+}
+
+a {
+	color: #AAAAAA;
+	text-decoration: none;
+}
+
+textarea {
+
+	resize: none;
+
+}
